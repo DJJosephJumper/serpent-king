@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "Barlow";
+    font-weight: 400;
+    font-style: normal;
+    src: url("Barlow-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-weight: 400;
+    font-style: italic;
+    src: url("Barlow-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-weight: 700;
+    font-style: normal;
+    src: url("Barlow-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Barlow Semi Condensed";
+    font-weight: 300;
+    font-style: normal;
+    src: url("BarlowSemiCondensed-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Barlow Condensed";
+    font-weight: 700;
+    font-style: italic;
+    src: url("BarlowCondensed-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Barlow Condensed";
+    font-weight: 400;
+    font-style: italic;
+    src: url("BarlowCondensed-Italic.woff2") format("woff2");
+}
+
+/* Add a dark background color to the top navigation */
+.topnav {
+  background-color: #212121;
+  overflow: hidden;
+  font-family: "BarlowSemiCondensed";
+  font-weight: 300;
+  font-style: normal;
+  /* box-shadow: 2px 3px 5px #000000; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e91e63;
+  color: white;
+}
+
+.topnav a.active-home {
+  background-color: #a1a1a1;
+  color: white;
+}
+
+
+div.flyer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Center align the title text on page*/
+p.title-text {
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 75px;
+  margin-top: 16px;
+}
+
+div.title-display {
+  display: block;
+  align-items: center;
+}
+
+/*Center align the home title text on page*/
+div.title-text-home {
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 75px;
+  margin-top: 16px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+p.subtitle-text-home {
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Barlow Semi Condensed";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 0px;
+  color: white;
+}
+
+div.title-display-home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+img.title-display-home {
+  width: 315px;
+  height: 475px;
+}
+
+p.home-flyer-text {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+p.bio {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body {
+  background: #eeeeee;
+}
+
+div.github {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  padding-top: 20px;
+  color: #1976d2;
+}
+
+p.sources-title {
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 26px;
+  color: black;
+  text-align: left;
+  padding-top: 5px;
+}
+
+ul.sources-list {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: black;
+  text-align: left;
+}
+
+a.github:link {
+  color: #1976d2;
+}
+
+a.github:visited {
+  color: #1976d2;
+}
+
+a.github-home:link {
+  color: #a1a1a1;
+}
+
+a.github-home:visited {
+  color: #a1a1a1;
+}
+
+div.github-home {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  padding-top: 20px;
+  color: #a1a1a1;
+}
