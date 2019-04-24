@@ -20,6 +20,20 @@
 }
 
 @font-face {
+    font-family: "Barlow";
+    font-weight: 200;
+    font-style: normal;
+    src: url("Barlow-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-weight: 200;
+    font-style: italic;
+    src: url("Barlow-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
     font-family: "Barlow Semi Condensed";
     font-weight: 300;
     font-style: normal;
@@ -85,7 +99,7 @@ div.flyer {
 }
 
 /*Center align the title text on page*/
-p.title-text {
+div.title-text, p.title-text {
   align-items: center;
   width: 100%;
   height: auto;
@@ -144,7 +158,7 @@ img.title-display-home {
 
 p.home-flyer-text {
   font-family: "Barlow";
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   font-size: 24px;
   color: white;
@@ -179,7 +193,7 @@ div.github {
   color: #1976d2;
 }
 
-p.sources-title {
+div.sources-title {
   font-family: "Barlow Condensed";
   font-weight: 400;
   font-style: italic;
